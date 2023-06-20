@@ -1,0 +1,47 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 437,
+      "versionNonce": 348138781,
+      "isDeleted": false,
+      "id": "4AoRIu5-TC-U8jnlwpBuc",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 261.70001220703125,
+      "y": 794.0500030517578,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 336.6597595214844,
+      "height": 225,
+      "seed": 2042928877,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1687289801304,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "LOS 4-20:\n\nSimurdiera: Daniel Velin\n\nRastas Marlo: Fausto Roman\n\nEl cubo helado: Edison Sanchez\n\nEl 50 centavos: Steven Zambrano",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "LOS 4-20:\n\nSimurdiera: Daniel Velin\n\nRastas Marlo: Fausto Roman\n\nEl cubo helado: Edison Sanchez\n\nEl 50 centavos: Steven Zambrano",
+      "lineHeight": 1.25,
+      "baseline": 218
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

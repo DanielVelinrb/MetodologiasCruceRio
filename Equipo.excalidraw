@@ -1,0 +1,47 @@
+{
+  "type": "excalidraw",
+  "version": 2,
+  "source": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor",
+  "elements": [
+    {
+      "type": "text",
+      "version": 449,
+      "versionNonce": 815892806,
+      "isDeleted": false,
+      "id": "4AoRIu5-TC-U8jnlwpBuc",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "angle": 0,
+      "x": 261.70001220703125,
+      "y": 794.0500030517578,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "width": 280.1197814941406,
+      "height": 200,
+      "seed": 2042928877,
+      "groupIds": [],
+      "roundness": null,
+      "boundElements": [],
+      "updated": 1686964425166,
+      "link": null,
+      "locked": false,
+      "fontSize": 20,
+      "fontFamily": 1,
+      "text": "\nDaniel Velin (Desarrollador)\n\nFausto Roman (Cliente)\n\nEdison Sanchez (Entrenador)\n\nSteven Zambrano (Tester)",
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "containerId": null,
+      "originalText": "\nDaniel Velin (Desarrollador)\n\nFausto Roman (Cliente)\n\nEdison Sanchez (Entrenador)\n\nSteven Zambrano (Tester)",
+      "lineHeight": 1.25,
+      "baseline": 193
+    }
+  ],
+  "appState": {
+    "gridSize": null,
+    "viewBackgroundColor": "#ffffff"
+  },
+  "files": {}
+}

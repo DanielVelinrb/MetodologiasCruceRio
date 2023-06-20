@@ -1,0 +1,25 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Daniel, Steven"
+      },
+      "creation_time": "2023-06-16T22:13:23.718Z",
+      "id": "4",
+      "references": [],
+      "title": "Corrección Bugs"
+    },
+    {
+      "assignedTo": {
+        "name": "Todos"
+      },
+      "creation_time": "2023-06-16T22:14:20.711Z",
+      "id": "6",
+      "references": [],
+      "title": "Reunión para validación con el cliente"
+    }
+  ],
+  "in-progress": [],
+  "testing": [],
+  "done": []
+}

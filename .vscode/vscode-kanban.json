@@ -1,0 +1,63 @@
+{
+  "todo": [
+    {
+      "assignedTo": {
+        "name": "Daniel, Edison"
+      },
+      "creation_time": "2023-06-16T22:13:23.718Z",
+      "id": "4",
+      "references": [],
+      "title": "Codificación"
+    },
+    {
+      "assignedTo": {
+        "name": "Steven"
+      },
+      "creation_time": "2023-06-16T22:13:41.089Z",
+      "id": "5",
+      "references": [],
+      "title": "Ejecución de los casos de prueba"
+    },
+    {
+      "assignedTo": {
+        "name": "Todos"
+      },
+      "creation_time": "2023-06-16T22:14:20.711Z",
+      "id": "6",
+      "references": [],
+      "title": "Reunión para validación con el cliente"
+    }
+  ],
+  "in-progress": [
+    {
+      "assignedTo": {
+        "name": "Steven"
+      },
+      "creation_time": "2023-06-16T22:12:35.985Z",
+      "id": "2",
+      "references": [],
+      "title": "Generación de los casos de prueba"
+    }
+  ],
+  "testing": [],
+  "done": [
+    {
+      "assignedTo": {
+        "name": "Edison"
+      },
+      "creation_time": "2023-06-16T22:13:07.878Z",
+      "id": "3",
+      "references": [],
+      "title": "Diseño de la arquitectura"
+    },
+    {
+      "assignedTo": {
+        "name": "Fausto"
+      },
+      "creation_time": "2023-06-16T22:10:40.760Z",
+      "id": "1",
+      "references": [],
+      "title": "Generación de historias de usuario"
+    }
+  ]
+}
