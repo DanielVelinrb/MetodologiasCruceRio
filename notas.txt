@@ -1,0 +1,3 @@
+FALTA GENERAR LAS ACTIVIDADES DEL TESTER (TODAS)
+Corregir las historias usuario (enfoque agil)
+Completar estándares

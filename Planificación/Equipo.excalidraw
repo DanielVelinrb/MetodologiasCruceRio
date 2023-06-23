@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 449,
-      "versionNonce": 815892806,
+      "version": 450,
+      "versionNonce": 1006480360,
       "isDeleted": false,
       "id": "4AoRIu5-TC-U8jnlwpBuc",
       "fillStyle": "hachure",
@@ -25,7 +25,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1686964425166,
+      "updated": 1687485962765,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -36,7 +36,7 @@
       "containerId": null,
       "originalText": "\nDaniel Velin (Desarrollador)\n\nFausto Roman (Cliente)\n\nEdison Sanchez (Entrenador)\n\nSteven Zambrano (Tester)",
       "lineHeight": 1.25,
-      "baseline": 193
+      "baseline": 192
     }
   ],
   "appState": {

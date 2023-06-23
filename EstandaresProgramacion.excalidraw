@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 858,
-      "versionNonce": 149165719,
+      "version": 859,
+      "versionNonce": 815485613,
       "isDeleted": false,
       "id": "J7-FwRPsq7mC5HKOfwdEq",
       "fillStyle": "hachure",
@@ -25,7 +25,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687289797063,
+      "updated": 1687485780871,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -36,12 +36,12 @@
       "containerId": null,
       "originalText": "Dado que se trabajará en java, se utilizará camel case tanto para métodos y atributos.",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     },
     {
       "type": "text",
-      "version": 962,
-      "versionNonce": 2013233753,
+      "version": 963,
+      "versionNonce": 930757283,
       "isDeleted": false,
       "id": "N_UPDJRu4p_BNDqrtRSSw",
       "fillStyle": "hachure",
@@ -60,7 +60,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687289797064,
+      "updated": 1687485780873,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -71,7 +71,7 @@
       "containerId": null,
       "originalText": "Los métodos empezarán con un verbo en infinitivo.",
       "lineHeight": 1.25,
-      "baseline": 18
+      "baseline": 17
     }
   ],
   "appState": {

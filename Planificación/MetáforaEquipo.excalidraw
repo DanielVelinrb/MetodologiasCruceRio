@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 437,
-      "versionNonce": 348138781,
+      "version": 438,
+      "versionNonce": 1175187505,
       "isDeleted": false,
       "id": "4AoRIu5-TC-U8jnlwpBuc",
       "fillStyle": "hachure",
@@ -25,7 +25,7 @@
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687289801304,
+      "updated": 1687485966257,
       "link": null,
       "locked": false,
       "fontSize": 20,
@@ -36,7 +36,7 @@
       "containerId": null,
       "originalText": "LOS 4-20:\n\nSimurdiera: Daniel Velin\n\nRastas Marlo: Fausto Roman\n\nEl cubo helado: Edison Sanchez\n\nEl 50 centavos: Steven Zambrano",
       "lineHeight": 1.25,
-      "baseline": 218
+      "baseline": 217
     }
   ],
   "appState": {
