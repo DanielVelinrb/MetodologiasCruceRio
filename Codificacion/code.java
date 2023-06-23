@@ -13,7 +13,7 @@ public class Code {
     }
 
 
-    public static void Main(String[] args) {
+    public static void main(String[] args) {
         String personajes[][] = {{"Barquero", "Lado Izquierdo del rio"}, 
                                 {"Lobo", "Lado Izquierdo del rio"}, 
                                 {"Caperucita", "Lado Izquierdo del rio"}, 
@@ -87,11 +87,10 @@ public class Code {
                             }
                             else if(totalPersonajesLado == 3 && opcion != 2){
                                 System.out.println(personajes[opcion][0] + " no puede viajar esta vez");
-                            }                         
+                            } 
+                            opcion = -1; 
+                            auxDos = false;                       
                         }
-                        auxDos = false; 
-                        opcion = -1;
-                        break;
                     }
 
                     if(personajes[0][1].equals("Lado derecho del rio") && totalPersonajesLado == 0){
