@@ -5,8 +5,8 @@
   "elements": [
     {
       "type": "text",
-      "version": 438,
-      "versionNonce": 1175187505,
+      "version": 524,
+      "versionNonce": 162115871,
       "isDeleted": false,
       "id": "4AoRIu5-TC-U8jnlwpBuc",
       "fillStyle": "hachure",
@@ -19,24 +19,24 @@
       "y": 794.0500030517578,
       "strokeColor": "#000000",
       "backgroundColor": "transparent",
-      "width": 336.6597595214844,
+      "width": 453.5596618652344,
       "height": 225,
       "seed": 2042928877,
       "groupIds": [],
       "roundness": null,
       "boundElements": [],
-      "updated": 1687485966257,
+      "updated": 1687544115286,
       "link": null,
       "locked": false,
       "fontSize": 20,
       "fontFamily": 1,
-      "text": "LOS 4-20:\n\nSimurdiera: Daniel Velin\n\nRastas Marlo: Fausto Roman\n\nEl cubo helado: Edison Sanchez\n\nEl 50 centavos: Steven Zambrano",
+      "text": "LOS 4-20:\n\nSimurdiera: Daniel Velin (Programador)\n\nRastas Marlo: Fausto Roman (Cliente, Coach)\n\nEl cubo helado: Edison Sanchez (Gestor)\n\nEl 50 centavos: Steven Zambrano (Tester)",
       "textAlign": "left",
       "verticalAlign": "top",
       "containerId": null,
-      "originalText": "LOS 4-20:\n\nSimurdiera: Daniel Velin\n\nRastas Marlo: Fausto Roman\n\nEl cubo helado: Edison Sanchez\n\nEl 50 centavos: Steven Zambrano",
+      "originalText": "LOS 4-20:\n\nSimurdiera: Daniel Velin (Programador)\n\nRastas Marlo: Fausto Roman (Cliente, Coach)\n\nEl cubo helado: Edison Sanchez (Gestor)\n\nEl 50 centavos: Steven Zambrano (Tester)",
       "lineHeight": 1.25,
-      "baseline": 217
+      "baseline": 218
     }
   ],
   "appState": {
