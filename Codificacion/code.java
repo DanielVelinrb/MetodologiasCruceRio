@@ -1,7 +1,7 @@
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class code {
+public class Code {
 
     public static void Viajar(String personaje[], String ladoRio){
         if(personaje[1].equals(ladoRio)){
@@ -12,14 +12,15 @@ public class code {
         }
     }
 
-    public static void main(String[] args) {
+
+    public static void Main(String[] args) {
         String personajes[][] = {{"Barquero", "Lado Izquierdo del rio"}, 
                                 {"Lobo", "Lado Izquierdo del rio"}, 
                                 {"Caperucita", "Lado Izquierdo del rio"}, 
                                 {"Uvas", "Lado Izquierdo del rio"}};
         
-        int option = -1;
-        int aux = 0;
+        int opcion = -1;
+        int totalPersonajesLado = 0;
         String posicionBarca = personajes[0][1];
         Scanner entrada = new Scanner(System.in);
 
@@ -31,77 +32,76 @@ public class code {
 
             System.out.println("Desea viajar solo?");
             System.out.println("1. Si\n2. No");
-            option = Integer.parseInt(entrada.nextLine().toString());
+            opcion = Integer.parseInt(entrada.nextLine().toString());
 
-            while(option != -1){
-                if(option == 1){
+            while(opcion != -1){
+                if(opcion == 1){
                     posicionBarca = personajes[0][1];
-                    aux = 0;
-                    LinkedList<String> nombres = new LinkedList<String>();
+                    totalPersonajesLado = 0;
+                    LinkedList<String> personajesJuntoBarquero = new LinkedList<String>();
 
                     for(int i = 1; i < personajes.length; i++){
                         if(personajes[i][1].equals(posicionBarca)){
-                            nombres.add(personajes[i][0]);
-                            aux++;
+                            personajesJuntoBarquero.add(personajes[i][0]);
+                            totalPersonajesLado++;
                         }
                     }
 
-                    if((aux == 1) || (aux == 2 && !nombres.contains("Caperucita"))){
+                    if((totalPersonajesLado == 1) || (totalPersonajesLado == 2 && !personajesJuntoBarquero.contains("Caperucita"))){
                         Viajar(personajes[0], "Lado Izquierdo del rio");
-                        aux--;
+                        totalPersonajesLado--;
                     }
-                    else if((aux == 2 && nombres.contains("Caperucita")) || aux == 3){
+                    else if((totalPersonajesLado == 2 && personajesJuntoBarquero.contains("Caperucita")) || totalPersonajesLado == 3){
                         System.out.println("NO PUEDE REALIZAR SOLO ESTE VIAJE");
-                        option =-1;
+                        opcion =-1;
                     }
                     break;
                 }           
-                else if(option == 2){
+                else if(opcion == 2){
                     boolean auxDos = true;
 
                     while(auxDos){                    
-                        aux = 0;
+                        totalPersonajesLado = 0;
                         posicionBarca = personajes[0][1];
-                        LinkedList<String> nombres = new LinkedList<String>();
+                        LinkedList<String> personajesJuntoBarquero = new LinkedList<String>();
 
                         for(int i = 1; i < personajes.length; i++){
                             if(personajes[i][1].equals(posicionBarca)){
-                                nombres.add(personajes[i][0]);
-                                aux++;
+                                personajesJuntoBarquero.add(personajes[i][0]);
+                                totalPersonajesLado++;
                             }
                         }
 
                         System.out.println("Con quien va a viajar?");
                         System.out.println("1. Lobo\n2. Caperucita\n3.Uvas");
-                        option = Integer.parseInt(entrada.nextLine().toString());
+                        opcion = Integer.parseInt(entrada.nextLine().toString());
 
-                        if(!nombres.contains(personajes[option][0])){
+                        if(!personajesJuntoBarquero.contains(personajes[opcion][0])){
                             System.out.println("Error. Este personaje no se encuentra en el mismo lado del río que el barquero.");
                         }
                         else{
-                            if(aux == 1 || aux == 2 || (aux == 3 && option == 2)){      
+                            if(totalPersonajesLado == 1 || totalPersonajesLado == 2 || (totalPersonajesLado == 3 && opcion == 2)){      
                                 Viajar(personajes[0], "Lado Izquierdo del rio");  
-                                Viajar(personajes[option], "Lado Izquierdo del rio");
-                                aux--;                
+                                Viajar(personajes[opcion], "Lado Izquierdo del rio");
+                                totalPersonajesLado--;                
                             }
-                            else if(aux == 3 && option != 2){
-                                System.out.println(personajes[option][0] + " no puede viajar esta vez");
+                            else if(totalPersonajesLado == 3 && opcion != 2){
+                                System.out.println(personajes[opcion][0] + " no puede viajar esta vez");
                             }                         
                         }
                         auxDos = false; 
-                        option = -1;
+                        opcion = -1;
                         break;
                     }
 
-                    if(personajes[0][1].equals("Lado derecho del rio") && aux == 0){
+                    if(personajes[0][1].equals("Lado derecho del rio") && totalPersonajesLado == 0){
                         System.out.println("TODOS SE HAN MOVIDO");
                         return;
                     }
-
                 }
                 else{
                     System.out.println("ERROR.Opcion seleccionada invalida. Trate de nuevo.");
-                    option = -1;
+                    opcion = -1;
                 }
             }
         }
